@@ -1,0 +1,58 @@
+{
+  "expo": {
+    "owner": "arrowpos",
+    "name": "Rosatis",
+    "slug": "rosatis_pizza",
+    "version": "2.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/adaptive-icon2.png",
+    "splash": {
+      "image": "./assets/splash2.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.rosatis.rosatis",
+      "infoPlist": {
+        "NSLocationAlwaysAndWhenInUseUsageDescription": "We use your location to provide stores that are nearest you.",
+        "NSLocationAlwaysUsageDescription": "We use your location to provide stores that are nearest you.",
+        "NSLocationWhenInUseUsageDescription": "We use your location to provide stores that are nearest you."
+      }},
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon2.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.rosatis.rosatis",
+      "versionCode": 2,
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyBgRcCr3Lgh5vhvYUU1gFLwD-u1IZf5jFA"
+        }
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "bugsnag": {
+        "apiKey": "c0a3f69abdef4a65b38d87f6bbdc880c"
+      }
+    },
+    "hooks": {
+      "postPublish": [
+        {
+          "file": "@bugsnag/expo/hooks/post-publish.js",
+          "config": {}
+        }
+      ]
+    }
+  }
+}

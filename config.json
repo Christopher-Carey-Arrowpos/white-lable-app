@@ -1,0 +1,25 @@
+{
+    "BASE_URL":"order.myrosatis.com",
+
+    "PRIMARY_COLOR":"#b30838",
+    "SECONDARY_COLOR":"#AA080C",
+
+    "ACCENT_COLOR":"#60869A",
+    "SECONDARY_ACCENT":"#b4ecf1",
+
+    "MAP_BOX":"pk.eyJ1IjoiY2hyaXNjMDciLCJhIjoiY2tnOWk0aWw0MDEydzJwcG40eWltbjc0aiJ9.f-MEInq4lN1EvvnhHCtFeg",
+    "LOGO":"https://s3.us-east-2.amazonaws.com/recurve-customer-assets/rosatis_franchise/Rosati+Logo+banner.png",
+    "SPLASH_VIDEO":"true",
+    "GIFT_CARD_URL":"https://myrosatis.myguestaccount.com/guest/egift",
+    "GIFT_CARD_BALANCE_URL" : "https://myrosatis.myguestaccount.com/guest/nologin/account-balance",
+
+    "USES_PUSH": false,
+    "PUSH_PSK": "bTMiCzgniBGD7DrO3SXklJpm2viGQzqM",
+    "PUSH_ENDPONT": "",
+    "PUSH_FRANCHISE_ID": "1",
+
+    "USES_CUSTOM_FONT": true
+
+}
+
+
